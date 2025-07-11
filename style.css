@@ -1,0 +1,373 @@
+html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.age-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    font-family: Arial, sans-serif;
+    pointer-events: auto;
+}
+
+.age-modal-content {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 320px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    pointer-events: auto;
+}
+
+.age-modal-content h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.age-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.age-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+.age-btn:hover {
+    background-color: #0056b3;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(211, 209, 209);
+    box-shadow: 0 2px 8px rgb(180, 180, 180);
+    background-color: #ddf7e0;
+
+}
+
+.emblem {
+    display: flex;
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.secondct {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c1e6d1;
+
+}
+
+.dcont {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.spacebtwn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+    padding-top: 30px;
+}
+
+.spacebtwntw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    padding-top: 30px;
+}
+
+.social {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a img {
+    height: 50px;
+    width: 50px;
+    transition: transform 0.2s ease;
+    object-fit: contain;
+}
+
+.social a:hover img {
+    transform: scale(1.1);
+}
+
+.socialwap img {
+    display: flex;
+    height: 62px;
+    cursor: pointer;
+}
+
+.socialwap img {
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.socialwap img:hover {
+    object-fit: contain;
+    transform: scale(1.1);
+
+}
+
+.categorys.active {
+    text-decoration: underline;
+}
+
+.categoryct {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 365px;
+    border-right: 1px solid rgb(211, 209, 209);
+    box-shadow: 2px 2px 8px rgb(180, 180, 180);
+    margin-top: 2px;
+    background-color: rgb(221, 252, 235);
+    scrollbar-width: none;
+}
+
+.pdtop {
+    padding-top: 200px;
+}
+
+.categorys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.categorys:hover {
+    transform: scale(1.1);
+}
+
+.productcontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    height: max-content;
+}
+
+
+.product-card {
+    background-color: rgb(221, 252, 235);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    max-width: 360px;
+    height: 480px;
+}
+
+.product-card-shisha {
+    background-color: rgb(221, 252, 235);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    max-width: 360px;
+    height: 630px;
+}
+
+.product-card,
+.product-card-shisha {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover,
+.product-card-shisha:hover {
+    transform: scale(1.02);
+}
+
+.product-img {
+    width: 340px;
+    height: 240px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.shisha-img {
+    width: 300px;
+    height: 470px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 16px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: rgb(221, 252, 235);
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.opening-hours {
+
+    padding: 20px;
+
+    margin: 40px auto;
+
+}
+
+.opening-hours h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.opening-hours table {
+
+    border-collapse: collapse;
+    font-size: 22px;
+}
+
+.opening-hours td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.categorys.active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #2a8f5a;
+}
+
+
+.impressum-link {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #2a8f5a;
+    transition: all 0.2s ease;
+}
+
+.impressum-link:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.cookie-notice {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #2a8f5a;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 9999;
+    font-size: 15px;
+}
+
+.cookie-notice button {
+    background-color: white;
+    color: #2a8f5a;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.cookie-notice button:hover {
+    background-color: #e2e2e2;
+}
+
+.cookie-notice a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
