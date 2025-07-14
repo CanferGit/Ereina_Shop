@@ -655,11 +655,11 @@
 @media(max-width: 435px) {
 
     .product-card {
-        height: 125px;
+        height: 127px;
         font-size: 6px;
         padding: 9px;
         margin: 0;
-        width: 85px;
+        width: 100px;
     }
 
 
