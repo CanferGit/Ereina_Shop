@@ -559,7 +559,7 @@
     }
 
     .product-card {
-        height: 125px;
+        height: 115px;
         font-size: 6px;
         padding: 10px;
         margin: 7px;
@@ -655,39 +655,41 @@
 @media(max-width: 435px) {
 
     .product-card {
-        height: 120px;
-        font-size: 5px;
+        height: 125px;
+        font-size: 6px;
         padding: 9px;
-        margin: 4px;
+        margin: 0;
+        width: 85px;
     }
-
-    .whatsapp-btn {
-        margin-top: 4px;
-        padding: 6px 6px;
-        border-radius: 6px;
-    }
-
-    .product-img {
-        width: 62px;
-        height: 40px;
-    }
-
-    .productcontent {
-        gap: 10px;
-        padding: 7px;
-    }
-
-
-    .product-card-shisha {
-        height: 109px;
-        font-size: 5px;
-        padding: 9px;
-        margin: 4px;
-    }
-
-    .shisha-img {
-        width: 73px;
-        height: 50px;
-    }
-
 }
+
+.whatsapp-btn {
+    margin-top: 10px;
+    padding: 6px 6px;
+    border-radius: 6px;
+}
+
+.product-img {
+    width: 62px;
+    height: 40px;
+}
+
+.productcontent {
+    gap: 26px;
+    padding: 11px;
+}
+
+
+.product-card-shisha {
+    width: 90px;
+    height: 135px;
+    font-size: 6px;
+    padding: 9px;
+    margin: 4px;
+}
+
+.shisha-img {
+    width: 79px;
+    height: 63px;
+}
+
