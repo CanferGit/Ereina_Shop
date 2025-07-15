@@ -1,5 +1,4 @@
 html {
-
     scroll-behavior: smooth;
 }
 
@@ -70,7 +69,6 @@ body {
     border-bottom: 1px solid rgb(211, 209, 209);
     box-shadow: 0 2px 8px rgb(180, 180, 180);
     background-color: #ddf7e0;
-
 }
 
 .emblem {
@@ -86,7 +84,6 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #c1e6d1;
-
 }
 
 .dcont {
@@ -143,7 +140,6 @@ body {
 .socialwap img:hover {
     object-fit: contain;
     transform: scale(1.1);
-
 }
 
 .categorys.active {
@@ -287,11 +283,8 @@ body {
 
 
 .opening-hours {
-
     padding: 20px;
-
     margin: 40px auto;
-
 }
 
 .opening-hours h2 {
@@ -300,7 +293,6 @@ body {
 }
 
 .opening-hours table {
-
     border-collapse: collapse;
     font-size: 22px;
 }

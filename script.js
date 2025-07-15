@@ -173,7 +173,7 @@ function checkAge() {
 
 window.addEventListener('DOMContentLoaded', () => {
   if (localStorage.getItem('isOver18') !== 'true') {
-    checkAge(); // Erst Altersprüfung, dann ggf. Seite laden!
+    checkAge(); 
   } else {
     document.getElementById('ageModal').style.display = 'none';
     if (typeof load === 'function') load(); 
