@@ -290,7 +290,7 @@
 
 }
 
-@media(max-width: 849px) {
+@media(max-width: 890px) {
 
     .product-img {
         width: 168px;
@@ -504,9 +504,10 @@
 
 
     .modal-content {
-        max-width: 160px;
-        width: 90%;
-        font-size: 8px;
+        max-width: 254px;
+        width: 99%;
+        font-size: 11px;
+        height: 313px;
     }
 
 
@@ -645,9 +646,10 @@
     }
 
     .modal-content {
-        max-width: 120px;
+        max-width: 197px;
         width: 90%;
-        font-size: 7px;
+        font-size: 9px;
+        height: 257px;
     }
 }
 
