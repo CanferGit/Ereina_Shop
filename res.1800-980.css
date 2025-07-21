@@ -1,0 +1,271 @@
+@media(max-width: 1800px) {
+    .emblem {
+        height: 420px;
+        width: 420px;
+    }
+
+    .pdtop {
+        padding-top: 120px;
+    }
+
+    .dcont {
+        padding-bottom: 25px;
+    }
+}
+
+@media(max-width: 1450px) {
+    .emblem {
+        height: 365px;
+        width: 365px;
+    }
+
+    .pdtop {
+        padding-top: 60px;
+    }
+
+    .categorys {
+        font-size: 25px;
+    }
+
+    .categoryct {
+        min-width: 330px;
+    }
+
+    .social a img {
+        height: 45px;
+        width: 45px;
+    }
+
+    .socialwap img {
+        height: 57px;
+    }
+
+    .opening-hours h2 {
+        margin-bottom: 13px;
+    }
+
+    .opening-hours table {
+        font-size: 20px;
+    }
+
+    .opening-hours {
+        padding: 5px;
+        margin: 30px auto;
+    }
+}
+
+@media(max-width: 1270px) {
+    .emblem {
+        height: 270px;
+        width: 270px;
+    }
+
+    .categorys {
+        font-size: 22px;
+    }
+
+    .dcont {
+        padding-bottom: 5px;
+    }
+
+    .categoryct {
+        min-width: 270px;
+    }
+
+    .social a img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .socialwap img {
+        height: 51px;
+    }
+
+    .spacebtwn {
+        width: 190px;
+    }
+
+    .opening-hours table {
+        font-size: 18px;
+    }
+
+    .spacebtwntw {
+        width: 130px;
+        padding-top: 18px;
+    }
+
+    .product-img {
+        width: 300px;
+        height: 210px;
+    }
+
+    .product-card {
+        height: 410px;
+    }
+
+    .shisha-img {
+        width: 260px;
+        height: 255px;
+    }
+
+    .product-card-shisha {
+        height: 420px;
+    }
+}
+
+@media(max-width: 1270px) {
+
+    .emblem {
+        height: 250px;
+        width: 250px;
+    }
+
+    .categoryct {
+        min-width: 260px;
+    }
+
+    .pdtop {
+        padding-top: 26px;
+    }
+
+    .categorys {
+        font-size: 20px;
+    }
+
+    .dcont {
+        padding-bottom: 2px;
+    }
+
+    .social a img {
+        height: 37px;
+        width: 37px;
+    }
+
+    .socialwap img {
+        height: 47px;
+    }
+
+    .spacebtwn {
+        width: 180px;
+    }
+
+    .spacebtwntw {
+        width: 128px;
+        padding-top: 12px;
+    }
+
+    .opening-hours h2 {
+        margin-bottom: 7px;
+        font-size: 21px;
+    }
+
+    .opening-hours {
+        padding: 0px;
+        margin: 12px auto;
+    }
+
+    .product-img {
+        width: 255px;
+        height: 169px;
+    }
+
+    .product-card {
+        height: 365px;
+        font-size: 15px;
+    }
+
+    .shisha-img {
+        width: 230px;
+        height: 200px;
+    }
+
+    .product-card-shisha {
+        height: 360px;
+        font-size: 14px;
+    }
+
+
+    .modal-content {
+        max-width: 305px;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .modal-content img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 0px;
+    }
+}
+@media(max-width: 980px) {
+
+    .header {
+        height: 240px;
+    }
+
+
+    .emblem {
+        height: 200px;
+        width: 200px;
+    }
+
+    .categoryct {
+        min-width: 215px;
+    }
+
+
+    .categorys {
+        font-size: 16px;
+    }
+
+    .social a img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .spacebtwn {
+        width: 160px;
+    }
+
+    .social {
+        height: 30px;
+    }
+
+    .socialwap img {
+        height: 40px;
+    }
+
+    .spacebtwntw {
+        width: 120px;
+        padding-top: 10px;
+    }
+
+    .opening-hours h2 {
+        margin-bottom: 4px;
+        font-size: 18px;
+    }
+
+    .opening-hours table {
+        font-size: 13px;
+    }
+
+    .impressum-link {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    .product-img {
+        width: 208px;
+        height: 150px;
+    }
+
+    .product-card {
+        height: 335px;
+        font-size: 14px;
+    }
+
+    .modal-content img {
+        width: 75%;
+    }
+
+}
