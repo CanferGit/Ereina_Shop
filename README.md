@@ -3,6 +3,9 @@
 ## 🚀 Live Website
 https://www.ereina-shop.ch/
 
+## 💼 Client Project
+This website was developed for a real client and is currently live.
+
 ## 📌 Overview
 This project was designed and developed as a commercial client website.  
 The main focus was on clean UI, usability and mobile responsiveness.
